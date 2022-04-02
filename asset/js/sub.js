@@ -1,5 +1,5 @@
 const { createClient } = supabase
-        supabase = createClient("https://byxqextqmaciupdsfcjh.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5eHFleHRxbWFjaXVwZHNmY2poIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDg1MTc3NTIsImV4cCI6MTk2NDA5Mzc1Mn0.-TMpLYhoChEIHPBI9Ixpj8m_zr6xJ57byNLbQiOl0QI")
+        supabase = createClient("https://byxqextqmaciupdsfcjh.supabase.co", ANON_KEY)
       
         const form = document.querySelector('#user-form')
         form.addEventListener('submit', async (event) => {
