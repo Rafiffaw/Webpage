@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- THIS WEBSITE WAS CREATE BY RAFIF FAWW -->
+<html lang="en" class="hydrated">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tag-->
+    <meta name="description" content="Tsanrofess">
+    <title>Tulis Pesan Rahasia &mdash; Tsanrofess</title>
+    <meta name="title" content="Tulis Pesan Rahasia — Tsanrofess">
+    <meta name="description" content="Tulis pesan rahasia menggunakan Tsanrofess">
+    <link rel="shortcut icon" href="/public/asset/img/image.png" type="image/x-icon">
+    <!--CSS Bootsrap-->
+    <link rel="stylesheet" href="/asset/css/bootstrap.min.css">
+    <!-- CSS Costume-->
+    <link rel="stylesheet" href="/asset/css/costume.css">
+    <!-- JS -->
+    
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: #fef8e8;">
+    <div class="container">
+        <a class="navbar-brand" href="">
+            <img src="/asset/img/tsanrofess.png" alt="Logo Tsanrofess" width="34" height="30" class="d-inline-block align-text-top">
+            Tsanrofess
+        </a>
+    </div>
+</nav>
+<!-- navbar -->
+<!-- Start Main-->
+<main class="flex-shrink-0">
+    <section class="section-pesan">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="kotak-form">
+                        <div class="row p-3">
+                            <div class="col-md-8">
+                                <h3 class="mb-1">01</h3>
+                                <p class="mb-3"></p>
+                                <form class="needs-validation" name="pilihan" id="user-form" novalidate >
+                                    <div class="form-group">
+                                        <select class="form-select" name="tipe" required>
+                                            <option selected disabled value="">Pilih Tipe Pesan</option>
+                                            <option value="Menfes"> Menfes</option>
+                                            <option value="Kritik Dan Saran">Kritik Dan Saran</option>
+                                            <option value="Pelajaran Atau Materi">Pelajaran Atau Materi</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Pilih Tipe Pesan
+                                          </div>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" placeholder="Pesan" style="height: 150px" name="pesan" required></textarea>
+                                        <label for="pesan">Pesan</label>
+                                        <div class="invalid-feedback">Pesan Tidak Boleh Kosong</div>
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-primary">Kirim</button>
+                                    </div>
+                                </form>
+                                <p class="text-inpo">Info : We'll Keep Your Privacy</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="/asset/img/tsanrofess.png" class = "img-fluid" alt="Gambar Pesan"  >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+</main>
+<!-- End Main -->
+<!-- Script -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/public/asset/js/bootstrap.bundle.min.js"></script>
+    <script src="/asset/js/main.js"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+    <script src='/asset/js/sub.js'></script>
+    <!-- Script -->
+</body>
+
+</html>
