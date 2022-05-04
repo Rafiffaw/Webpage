@@ -16,7 +16,7 @@ const { createClient } = supabase
             }
           })
 
-          const { error } = await supabase.from('Tsanrofess').insert([submision], { returning: 'minimal'})
+          const { error } = await supabase.from('tsanrofess').insert([submision], { returning: 'minimal'})
 
           if (error) {
             Swal.fire({
